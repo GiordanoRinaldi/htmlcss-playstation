@@ -1,3 +1,14 @@
+/*common*/
+.btn {
+    color: white;
+    background-color: #363636;
+    border-radius: 20px;
+}
+
+.btn:hover {
+    color: white;
+}
+
 
 /*header top*/
 .header-top {
@@ -12,5 +23,41 @@
 .logo-h-top img {
     height: 100%;
 }
-/*/headre top*/
+/*fine header top*/
+
+/*header bottom*/
+
+header ul {
+    width: 100%;
+}
+
+.lens {
+    width: 30px;
+
+}
+
+.lens img {
+    width: 100%;
+}
+
+.chevron {
+    display: inline-block;
+    width: 10px;
+}
+
+.chevron img {
+    width: auto;
+}
+
+.chevron-hover {
+    display: none;
+}
+
+header ul li:hover .chevron {
+    display: none;
+}
+
+header ul li:hover .chevron-hover {
+    display: inline-block;
+}
 
