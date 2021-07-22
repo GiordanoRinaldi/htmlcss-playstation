@@ -96,7 +96,6 @@ header ul li:hover .chevron-hover {
 
 .hero-img {
     width: 200px;
-    margin-bottom: 20px;
 }
 
 .hero-img img {
@@ -156,6 +155,16 @@ header ul li:hover .chevron-hover {
 
 .banner.banner-banner {
     margin-bottom: 20px;
+}
+/*fine banner*/
+
+/*ps4*/
+.img-ps4 {
+    max-width: 800px;
+}
+
+.img-ps4 img {
+    width: 100%;
 }
 
 
