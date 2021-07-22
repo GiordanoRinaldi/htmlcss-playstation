@@ -3,6 +3,10 @@ h2, p {
     margin-bottom: 20px;
 }
 
+.container-fluid {
+    padding: 0 30px;
+}
+
 
 /*btn*/
 .btn {
@@ -13,6 +17,10 @@ h2, p {
 
 .btn-buy {
     background-color: #cd3d0f;
+}
+
+.btn-information {
+    background-color: #2d64e6;
 }
 
 .btn:hover {
@@ -103,5 +111,33 @@ header ul li:hover .chevron-hover {
 }
 
 .immaginine img {
+    width: 100%;
+}
+/* fine hero*/ 
+
+/*sezione ps5*/
+.text-blue {
+    color: #0072ce;
+    margin: 0;
+}
+
+.under-text {
+    color: #7d7d7d;
+}
+
+.ps5-img {
+    max-width: 550px;
+} 
+
+.ps5-img img {
+    width: 100%;
+}
+
+.accessories-ps5-img {
+    margin: auto;
+    max-width: 200px;
+}
+
+.accessories-ps5-img img {
     width: 100%;
 }
