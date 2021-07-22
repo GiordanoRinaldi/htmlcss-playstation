@@ -1,8 +1,18 @@
 /*common*/
+h2, p {
+    margin-bottom: 20px;
+}
+
+
+/*btn*/
 .btn {
     color: white;
     background-color: #363636;
     border-radius: 20px;
+}
+
+.btn-buy {
+    background-color: #cd3d0f;
 }
 
 .btn:hover {
@@ -33,7 +43,6 @@ header ul {
 
 .lens {
     width: 30px;
-
 }
 
 .lens img {
@@ -61,3 +70,27 @@ header ul li:hover .chevron-hover {
     display: inline-block;
 }
 
+/*fine header bottom*/
+
+/*hero*/
+
+.hero-banner {
+    background-image: url(../img/jumbo-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    color: white;
+}
+
+.hero-img {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.hero-img img {
+    width: 100%;
+}
+
+.padding-hero {
+    padding: 200px 30px 50px 30px;
+}
