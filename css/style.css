@@ -94,3 +94,14 @@ header ul li:hover .chevron-hover {
 .padding-hero {
     padding: 200px 30px 50px 30px;
 }
+
+.immaginine {
+    margin: 30px 0px;
+    border-radius: 10px;
+    max-width: 250px;
+    overflow: hidden;
+}
+
+.immaginine img {
+    width: 100%;
+}
