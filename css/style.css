@@ -7,6 +7,14 @@ h2, p {
     padding: 0 30px;
 }
 
+.banner {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    color: white;
+    background-color: #1f1f1f;
+}
+
 
 /*btn*/
 .btn {
@@ -84,10 +92,6 @@ header ul li:hover .chevron-hover {
 
 .hero-banner {
     background-image: url(../img/jumbo-bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top;
-    color: white;
 }
 
 .hero-img {
@@ -134,6 +138,8 @@ header ul li:hover .chevron-hover {
 }
 
 .accessories-ps5-img {
+    border-radius: 15px;
+    overflow: hidden;
     margin: auto;
     max-width: 200px;
 }
@@ -141,3 +147,17 @@ header ul li:hover .chevron-hover {
 .accessories-ps5-img img {
     width: 100%;
 }
+/*fine sezione ps5*/
+
+/*sezione banner*/
+.banner-banner {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+.banner.banner-banner {
+    margin-bottom: 20px;
+}
+
+
+
+
