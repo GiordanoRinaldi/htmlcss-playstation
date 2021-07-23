@@ -205,6 +205,15 @@ header ul li:hover .chevron-hover {
 .accessories-ps5-img img {
     width: 100%;
 }
+
+.shadow-effect {
+    opacity: 0.4;
+}
+
+.shadow-effect:hover {
+    transition: 1s;
+    opacity: 1;
+}
 /*fine sezione ps5*/
 
 /*sezione banner*/
