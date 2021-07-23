@@ -63,7 +63,41 @@ ul a {
 
 .ps-now .btn {
     color: black;
+    background-color: #f5f5f5 ;
 }
+
+/*hover btn*/
+.btn:hover {
+    box-shadow: inset 0px 0px 0 2px white;
+    opacity: .8;
+    border: 1px solid black;
+}
+
+.btn-buy:hover {
+    box-shadow: inset 0px 0px 0 2px black;
+    opacity: unset;
+    border: 1px solid #cd3d0f;
+}
+.btn-information:hover {
+    border: 1px solid #2d64e6;
+    opacity: unset;
+}
+
+.ps-now .btn:hover {
+    box-shadow: inset 0px 0px 0 2px #161c3b;
+    opacity: unset;
+    border: 1px solid #fff;
+}
+
+.ps-plus .btn:hover {
+    box-shadow: 0px 0px 5px 0px white;
+    opacity: unset;
+    border: none;
+}
+
+
+
+
 
 
 /*header top*/
@@ -179,7 +213,7 @@ header ul li:hover .chevron-hover {
 
 /*sezione ps5*/
 .text-blue {
-    color: #0072ce;
+    color: #2d64e6;
     margin: 0;
 }
 
@@ -204,6 +238,12 @@ header ul li:hover .chevron-hover {
 
 .accessories-ps5-img img {
     width: 100%;
+}
+
+.line-blu {
+    height: 2px;
+    width: 100%;
+    background-color: #2d64e6;
 }
 
 .shadow-effect {
