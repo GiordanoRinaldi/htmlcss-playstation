@@ -1,6 +1,18 @@
 /*common*/
+* {
+    font-family: Arial, sans-serif;
+}
+
 h2, p {
     margin-bottom: 20px;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: white;
 }
 
 .container-fluid {
@@ -13,6 +25,15 @@ h2, p {
     background-position: top;
     color: white;
     background-color: #1f1f1f;
+}
+
+ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+ul a {
+    text-decoration: none;
 }
 
 
@@ -61,6 +82,10 @@ h2, p {
 /*fine header top*/
 
 /*header bottom*/
+
+.navbar {
+    padding: 0;
+}
 
 header ul {
     width: 100%;
@@ -115,7 +140,13 @@ header ul li:hover .chevron-hover {
     padding: 200px 30px 50px 30px;
 }
 
+.effect {
+    box-shadow: 0 0 0 2px #2d64e6;
+}
+
 .immaginine {
+    position: relative;
+    border: 2px solid transparent;
     margin: 30px 0px;
     border-radius: 10px;
     max-width: 250px;
@@ -124,6 +155,25 @@ header ul li:hover .chevron-hover {
 
 .immaginine img {
     width: 100%;
+}
+
+.boing:hover {
+    animation: boing 1s linear forwards;
+}
+
+@keyframes boing {
+    0% {
+        bottom: 0;
+    }
+
+    50% {
+        bottom: 7px;
+    }
+
+    100% {
+        bottom: 15px;
+    }
+    
 }
 /* fine hero*/ 
 
@@ -206,12 +256,41 @@ header ul li:hover .chevron-hover {
 }
 /*social*/
 .social-img {
-    width: 100px;
+    max-width: 100px;
+    margin: 0 5px;
 }
 
 .social-img img {
     width: 100%;
 }
+
+/*footer*/
+footer {
+    background-color: #2d64e6;
+    color: white;
+}
+
+.ps-logo {
+    height: 80px;
+}
+
+.ps-logo img {
+    height: 100%;
+}
+
+
+.globe-img {
+    width: 16px;
+}
+
+.globe-img img {
+    width: 100%;
+}
+
+.img-sie  {
+    width: 150px;
+}
+
 
 
 
