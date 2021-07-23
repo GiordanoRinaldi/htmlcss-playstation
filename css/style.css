@@ -97,7 +97,18 @@ ul a {
 
 
 
+/*header fix*/ 
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 7;
+}
 
+main {
+    margin-top: 95px;
+}
 
 
 /*header top*/
