@@ -178,17 +178,23 @@ header ul li:hover .chevron-hover {
 }
 
 .img-ps-plus {
-    width: 400px;
+    max-width: 400px;
 }
 .img-ps-plus img {
     width: 100%;
 }
 .img-ps-plus-banner{
-    width: 600px;
+    max-width: 600px;
 }
 .img-ps-plus-banner img {
     width: 100%;
 }
+
+/*sezione sconti */
+.img-discount, .img-discount img {
+    width: 100%;
+}
+
 
 
 
