@@ -204,6 +204,16 @@ header ul li:hover .chevron-hover {
     background-color: #161c3b;
     color: white;
 }
+/*social*/
+.social-img {
+    width: 100px;
+}
+
+.social-img img {
+    width: 100%;
+}
+
+
 
 
 
