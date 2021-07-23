@@ -40,6 +40,10 @@ h2, p {
     background-color: #d9dadc;
 }
 
+.ps-now .btn {
+    color: black;
+}
+
 
 /*header top*/
 .header-top {
@@ -193,6 +197,12 @@ header ul li:hover .chevron-hover {
 /*sezione sconti */
 .img-discount, .img-discount img {
     width: 100%;
+}
+
+/*ps-now*/
+.ps-now {
+    background-color: #161c3b;
+    color: white;
 }
 
 
