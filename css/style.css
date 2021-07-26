@@ -29,7 +29,6 @@ a:hover {
 
 ul li {
     list-style: none;
-    margin-bottom: 10px;
 }
 
 ul a {
@@ -352,7 +351,42 @@ footer {
 }
 
 
+/*superbonus*/ 
+.dropdown, .dropend, .dropstart, .dropup {
+    position: static;
+}
 
+.dropdown-menu.show {
+    width: 100%;
+}
+
+.ps6 {
+    max-width: 60px;
+}
+
+.ps6 img {
+    width: 100%;
+}
+
+.support li a::before {
+    content: "•";
+    padding-right: 5px;
+    color: #2d64e6;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    background-color: #fff;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    background-color: none;
+    color: black;
+}
+
+
+.show>.nav-link {
+    color: #2d64e6;
+}
 
 
 
