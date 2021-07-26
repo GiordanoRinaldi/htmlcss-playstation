@@ -164,6 +164,7 @@ header ul li:hover .chevron-hover {
     display: inline-block;
 }
 
+
 /*fine header bottom*/
 
 /*hero*/
@@ -384,10 +385,27 @@ footer {
 }
 
 
-.show>.nav-link {
+.navbar-light .navbar-nav .nav-link.active:focus, .navbar-light .navbar-nav .show>.nav-link:focus {
     color: #2d64e6;
 }
 
+.navbar-light .navbar-nav .nav-link.active:focus .chevron.chevron-hover, .navbar-light .navbar-nav .show>.nav-link:focus .chevron.chevron-hover {
+    transform: rotate(180deg);
+    display: inline-block;
+}
+
+.navbar-light .navbar-nav .nav-link.active:focus .chevron, .navbar-light .navbar-nav .show>.nav-link:focus .chevron {
+    display: none;
+}
+
+.dropdown-menu[data-bs-popper] {
+    margin-top: 0;
+}
+
+.dropdown-menu {
+    border: 0;
+    border-radius: 0;
+}
 
 
 
